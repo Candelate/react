@@ -2,6 +2,17 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const persona = {
+    Nombre : 'Candela',
+    Edad : '20',
+    Altura : '1.63'
+  }
+  const nuevaPersona = {
+    ...persona,
+    edad:'21'
+  }
+  console.log(persona)
+  console.log(nuevaPersona)
   return (
     <div className="App">
       <header className="App-header">
