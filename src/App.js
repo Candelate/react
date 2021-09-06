@@ -1,20 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from'./NavBarcomponents/NavBar'
 
 function App() {
-  const persona = {
-    Nombre : 'Candela',
-    Edad : '20',
-    Altura : '1.63'
-  }
-  const nuevaPersona = {
-    ...persona,
-    edad:'21'
-  }
-  console.log(persona)
-  console.log(nuevaPersona)
   return (
     <div className="App">
+      <NavBar/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
