@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ItemCount from'./ItemCount'
+import Item from'./Item'
 
 const NavBar =() => {
     return(
@@ -14,7 +15,7 @@ const NavBar =() => {
  ) 
     
 }
-
+function Item({ item }) {
 
     
 
@@ -23,4 +24,3 @@ const NavBar =() => {
 
 
 export default NavBar
-
