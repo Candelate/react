@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ItemCount from'./ItemCount'
-import Item from'./Item'
+import ItemDetailContainer from './ItemDetailContainer';
 
 const NavBar =() => {
     return(
@@ -11,11 +11,12 @@ const NavBar =() => {
             <li>Mis datos</li>
         </ul>
         <ItemCount stock = '10' initial= '1' />
+        <ItemDetailContainer></ItemDetailContainer>
      </div>
  ) 
     
 }
-function Item({ item }) {
+
 
     
 
