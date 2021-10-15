@@ -8,7 +8,9 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <ItemList/>
+      <ItemListContainer/>
+
+
       
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
